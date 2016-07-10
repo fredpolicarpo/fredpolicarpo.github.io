@@ -12,14 +12,23 @@ body {
   width: 100px;
   padding: 10px;
 }
+.blog {
+    height: 150px;
+    width: 150px;
+}
 .text-muted {
   color: #777777;
 }
 .text-primary {
   color: #fed136;
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 .livro {
   height: 300px;
+    border: 1px solid;
 }
 p {
   font-size: 14px;
