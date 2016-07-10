@@ -159,6 +159,9 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222222;
   border-color: transparent;
 }
+.affix-top img {
+    display: none;
+}
 .navbar-custom .navbar-brand {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -392,10 +395,27 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
+header {
+  padding-top: 50px;
+}
+nav img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  border: none !important;
+  margin-right: 10px;
+}
 .timeline {
   list-style: none;
   padding: 0;
   position: relative;
+}
+.timeline-body ul li {
+  list-style: none;
+  font-size: 1em;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777777;
 }
 .timeline:before {
   top: 0;
