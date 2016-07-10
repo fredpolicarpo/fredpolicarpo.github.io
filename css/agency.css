@@ -18,6 +18,9 @@ body {
 .text-primary {
   color: #fed136;
 }
+.livro {
+  height: 300px;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -650,11 +653,14 @@ footer ul.quicklinks {
 ul.social-buttons {
   margin-bottom: 40px;
 }
+.img-circle {
+  border: 2px solid #fed136;
+}
 ul.social-buttons li a {
   display: block;
   background-color: #FFF;  
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 50px;
@@ -668,6 +674,9 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #fed136;
+}
+ul.social-buttons li a i {
+  margin-top:6px;
 }
 .btn:focus,
 .btn:active,
