@@ -62,7 +62,10 @@ a {
   display: inline-block;
   margin-right: 10px
 }
-
+img {
+  display: block;
+  margin: 0 auto;
+}
 .livro {
   height: 300px;
   width: 220px;
