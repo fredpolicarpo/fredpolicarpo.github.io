@@ -1,5 +1,5 @@
 node_modules
-.idea/*
+.idea/
 .picasaoriginals/*
 *.picasa.ini
 img/.picasaoriginals/
