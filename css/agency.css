@@ -42,6 +42,11 @@ img:hover {
   -webkit-transition: transform .5s; /* Safari */
   transition: transform .5s;
 }
+.sem-efeito {
+  transform: none !important;
+  -webkit-transition: none!important;
+  transition: none!important;
+}
 .blog {
   height: 150px;
   width: 150px
